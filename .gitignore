@@ -1,0 +1,106 @@
+### Maven & Java Build Artifacts ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+### Environment, Secrets & Local Overrides ###
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-local.properties
+application-secret*.yml
+application-secret*.yaml
+application-secret*.properties
+docker-compose.override.yml
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.truststore
+
+### Logs, Coverage & Temporary Files ###
+/logs/
+*.log
+jacoco.exec
+/coverage/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+
+### VS Code ###
+.vscode/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.metadata
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### OS Metadata ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Spring Initializr Boilerplate & AI Agent Files ###
+HELP.md
+SKILLS.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+COPILOT.md
+.agents/
+.agent/
+.claude/
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.antigravity/
+.gemini/
+.aider*
+.github/copilot-instructions.md
